@@ -20,6 +20,16 @@ Currently, such issues are addressed reactively rather than proactively.
 
 > This project strictly follows a privacy-first analytical approach.
 
+## Data Instructions
+Due to size and privacy constraints, raw UIDAI CSV files are not included.
+Steps to reproduce:
+-Download UIDAI data via API
+-Place files inside:
+   data/biometric/
+   data/demographic/
+   data/enrolment/
+-Run the notebook
+
 ## Methodology
 The analysis is structured around three analytical pillars:
 
